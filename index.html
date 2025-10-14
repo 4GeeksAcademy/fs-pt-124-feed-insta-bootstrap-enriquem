@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div>
+                <span class="fa-brands fa-instagram fa-lg"></span>
+                <a class="navbar-brand" href="#">Instagram</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="d-flex ms-auto">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Create a new post
+                    </button>
+
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle ms-2" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="fa-solid fa-gear">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                    <p class="text-danger">Log out</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4 px-0">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span
+                        class="fa-solid fa-table-cells"></span></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span
+                        class="fa-solid fa-square"></span></button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="row justify-content-center p-0">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://www.grupocomar.com/wp-content/uploads/2017/12/comar-apuestas-deportivas-carreras-galgos.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://www.e-architect.com/wp-content/uploads/2020/05/guangzhou-shipyard-waterfront-heritage-park-s110520.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://en.vijesti.me/data/images/2022/07/05/09/5422323_10b69c05_ff.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://indonesianboattrip.com/storage1/2025/04/3-days-shared-trip-2.webp"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://inconsegna.com/wp-content/uploads/2020/12/4q8a6848.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://www.securityexpo.com.au/wp-content/uploads/sites/10/2020/06/website-images-1000-x-700-8.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://mastershistoricracing.com/wp-content/uploads/2024/01/masters-2024-race-series-pre-66-touring-cars-mob.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://lh3.googleusercontent.com/proxy/j1SNAyEMyT3L9UYqRJwJiAs0KFN12ayRHoUawWF4nvYjEoAvmHjXIz0HI9PMx7-1fStfyuNLCBoC4sTGrwReoQJcvFFctEzEce54521i-YES6OgSlAPcnuvwFWh5udEBS3_6dSidrgsRSRo"
+                                    class="img-fluid" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2 px-1">
+                        <img src="https://www.keralaviajes.com/blog/wp-content/uploads/2020/06/monte-perdido.jpg"
+                                    class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="row justify-content-center"> <!-- g-3 para agregar espacio entre columnas -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">My Crazy dog Spark!</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://www.grupocomar.com/wp-content/uploads/2017/12/comar-apuestas-deportivas-carreras-galgos.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">The greattness of Guangzhou</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://www.e-architect.com/wp-content/uploads/2020/05/guangzhou-shipyard-waterfront-heritage-park-s110520.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Best play!</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://en.vijesti.me/data/images/2022/07/05/09/5422323_10b69c05_ff.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Beach, sun and sand!</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://indonesianboattrip.com/storage1/2025/04/3-days-shared-trip-2.webp"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Quiet place to eat</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://inconsegna.com/wp-content/uploads/2020/12/4q8a6848.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Meeting</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://www.securityexpo.com.au/wp-content/uploads/sites/10/2020/06/website-images-1000-x-700-8.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Number ONE</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://mastershistoricracing.com/wp-content/uploads/2024/01/masters-2024-race-series-pre-66-touring-cars-mob.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Eagle Mora</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://lh3.googleusercontent.com/proxy/j1SNAyEMyT3L9UYqRJwJiAs0KFN12ayRHoUawWF4nvYjEoAvmHjXIz0HI9PMx7-1fStfyuNLCBoC4sTGrwReoQJcvFFctEzEce54521i-YES6OgSlAPcnuvwFWh5udEBS3_6dSidrgsRSRo"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                        <div class="card mb-4">
+                            <div class="card-header p-2 d-flex justify-content-between position-relative">
+                                <div class="card-text">Pirineos, monte perdido.</div>
+                                <div class="card-text position-absolute top-0 end-0 pe-1"><small>08/26</small></div>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <img src="https://www.keralaviajes.com/blog/wp-content/uploads/2020/06/monte-perdido.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="card-footer p-2">
+                                <div class="card-text fw-medium">6 Likes</div>
+                                <div class="card-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Ea,
+                                    sapiente
+                                    laboriosam inventore nesciunt natus sunt quo fuga nobis cupiditate quod doloribus
+                                    culpa, rem
+                                    eveniet illum ipsa provident quas modi ex.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p for="caption">Caption:</p>
+                        <textarea id="caption" class="form-control mb-2" aria-label="With textarea"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn btn-light"><span class="fa-solid fa-camera"></span></button>
+                        <button class="btn btn-light"><span class="fa-solid fa-location-dot"></span></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
